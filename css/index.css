@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background-color: aqua;
+    text-align: center;
+    margin: 45px;
+}
+h1, h2 {
+    padding: 2rem;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+button {
+     border: none;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     color: white;
+     font-weight: bold;
+     width: 200px;
+     margin-bottom: 5px;
+     border-radius: 5px;
+     display: flex;
+     align-items: center;
+}
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: green;
+}
